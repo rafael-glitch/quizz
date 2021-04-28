@@ -1,0 +1,47 @@
+<form action="formulario">
+    <div class="form-group">
+        <label for="sel1">region </label>
+        <select class="form-control" id="sel1">
+          <option>Valparaiso</option>
+          <option>Metropolitana</option>
+          <option>BioBio</option>
+          <option>Araucania</option>
+        </select>
+    </div>
+    <div class="container">
+        <h2>clima</h2>
+        <form>
+          <div class="radio">
+            <label><input type="radio" name="optradio" checked>soleado</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="optradio">lluvioso</label>
+          </div>
+          <div class="radio ">
+            <label><input type="radio" name="optradio" >nublado</label>
+          </div>
+          <div class="radio ">
+            <label><input type="radio" name="optradio" >tormentoso</label>
+          </div>
+        </form>
+      </div>
+      <form action="formulario">
+        <div class="form-group">
+            <label for="sel2">dia </label>
+            <select class="form-control" id="sel2">
+              <option>lunes</option>
+              <option>Martes</option>
+              <option>miercoles</option>
+              <option>jueves</option>
+              <option>viernes</option>
+              <option>savado</option>
+              <option>domingo</option>
+            </select>
+        </div>
+      </form>
+      <label for="numero">temperatura : </label>
+            <p><input class="form-control input-sm" id="celcius" type="number" placeholder="celcius" maxlength="3" ></p>
+            <p><input class="form-control input-sm" id="fahrenheit" type="number" placeholder="fahrenheit" maxlength="3" ></p>
+      
+</form>
+<button>actualizar</button>
